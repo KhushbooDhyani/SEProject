@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+
+.wrapper {
+    /* color: blueviolet; */
+    border-style: solid;
+    border-radius: 10px;
+    border-color: green;
+    border-width: 5px;
+  background-color: white;
+  height: 500px;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right:auto;
+  margin-left: auto;  
+}
+
+.f {
+    height: 350px;
+  width: 400px;
+  /* margin-right:10px;
+  margin-left: auto; */
+  display: inline-block;
+  text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+input[type=text]:focus,
+input[type=password]:focus{
+  width: 320px;
+}
+
+label {
+    color: rgb(14, 77, 14);
+    padding: 4px ;
+    /* display: inline-block; */
+}
+
+p {
+    color: black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}  
+
+.a {
+    float: left;
+  width: 100px;
+  margin-top: 8px;
+  text-align: center;
+  /* margin-bottom: 10px; */
+}
+
+.b {
+    float: left;
+  width: 350px;
+  margin-top: 6px;
+  /* margin-bottom: 10px; */
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
